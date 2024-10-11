@@ -1,0 +1,77 @@
+.Controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 400px;
+  margin-left: 50px;
+  padding: 10px;
+}
+
+.Control {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+
+}
+
+.ingredient-img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.button-y {
+  background-color: rgb(245, 245, 61);
+  color: black;
+  font-weight: bolder;
+  font-size: medium;
+  border: 0px solid black;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.button-b {
+  background-color: #8f5e1e;
+  color: white;
+  font-weight: bolder;
+  font-size: medium;
+  border: 0px solid black;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #a5a1a1;
+  cursor: not-allowed;
+}
+
+.order-button {
+  background-color: #d48b2c;
+  color: white;
+  font-weight: bolder;
+  font-size: medium;
+  border: 0px solid black;
+  border-radius: 5px;
+  padding: 10px 40px;
+  margin: 10px 10px;
+  cursor: pointer;
+}
+
+.reset-button {
+  background-color: rgb(82, 82, 252);
+  color: white;
+  font-weight: bolder;
+  font-size: medium;
+  border: 0px solid black;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 10px 10px;
+  cursor: pointer;
+}
